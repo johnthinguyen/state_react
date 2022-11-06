@@ -1,10 +1,40 @@
+h1 {
+    background-color: pink;
+    color: black;
+}
+
 .home {
-    background-image: url(../../public/img/background.jpg);
+    background-image: url(../../public/img/background1.jpg);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    background-attachment: fixed;
+    height: 1000px;
+
+
+
 }
 
 .header {
     opacity: 0.8;
+}
+
+.card-body {
+    background-color: pink;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0.8;
+    color: black;
+}
+
+
+.bg {
+    background-color: pink;
+}
+
+.bg img {
+    border-radius: 10px;
+    border: 1px;
+
 }
